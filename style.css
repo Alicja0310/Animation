@@ -194,6 +194,7 @@ body {
     text-align: center;
     padding: 5px;
     font-size: 30px;
+    overflow: hidden;
 }
   
 .item1 {
@@ -221,7 +222,107 @@ body {
     grid-row: 2;
 }
 
-img {
+.img5 {
     width: 100%;
     height: 100%;
+}
+
+.img5:hover {
+    animation-name: zooom;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zooom {
+    from {
+        width: 100%;
+        height: 100%;
+    }
+    to {
+    transform: scale(1.3);
+    }
+}
+
+.img6 {
+    width: 100%;
+    height: 100%;
+}
+
+.img6:hover {
+    animation-name: xxx;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes xxx{
+    from {
+        width: 100%;
+        height: 100%;
+    }
+    to {
+    transform: scale(1.3);
+    }
+}
+
+.img7 {
+    width: 100%;
+    height: 100%;
+}
+
+.img7:hover {
+    animation-name: yyy;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes yyy{
+    from {
+        width: 100%;
+        height: 100%;
+    }
+    to {
+    transform: scale(1.3);
+    }
+}
+
+.img8 {
+    width: 100%;
+    height: 100%;
+}
+
+.img8:hover {
+    animation-name: vvv;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes vvv{
+    from {
+        width: 100%;
+        height: 100%;
+    }
+    to {
+    transform: scale(1.3);
+    }
+}
+
+.img9 {
+    width: 100%;
+    height: 100%;
+}
+
+.img9:hover {
+    animation-name: mmm;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mmm{
+    from {
+        width: 100%;
+        height: 100%;
+    }
+    to {
+    transform: scale(1.5);
+    }
 }
